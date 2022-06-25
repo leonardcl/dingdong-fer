@@ -1,0 +1,23 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>resources/icon/minimize-sign.png</file>
+    <file>resources/icon/close.png</file>
+    <file>resources/icon/icon_close.png</file>
+    <file>resources/icon/icon_maximize.png</file>
+    <file>resources/icon/icon_menu.png</file>
+    <file>resources/icon/icon_minimize.png</file>
+    <file>resources/icon/icon_restore.png</file>
+    <file>resources/icon/icon_settings.png</file>
+    <file>resources/icon/stats_24.png</file>
+    <file>resources/icon/face-recognition_16.png</file>
+    <file>resources/icon/ding_dong_42.png</file>
+    <file>resources/icon/face-recognition_24.png</file>
+    <file>resources/icon/setting.png</file>
+    <file>resources/icon/statistics.png</file>
+    <file>resources/icon/ding_dong.png</file>
+    <file>resources/icon/photo-camera-interface-symbol-for-button.png</file>
+  </qresource>
+  <qresource prefix="img">
+    <file>resources/image/login.png</file>
+  </qresource>
+</RCC>
