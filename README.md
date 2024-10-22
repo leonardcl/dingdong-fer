@@ -1,7 +1,15 @@
 
 # Student Engagement Analysis System for Online Learning
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Flask](https://img.shields.io/badge/Flask-v2.0.0-black)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
+![Svelte](https://img.shields.io/badge/Svelte-3-red)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
+
 This repository contains the source code for the **Student Engagement Analysis System**, developed as part of an undergraduate thesis. The system is designed to analyze student engagement in real-time during online learning sessions by detecting emotional and behavioral cues from students using their webcam.
+
+---
 
 ## Table of Contents
 
@@ -14,9 +22,13 @@ This repository contains the source code for the **Student Engagement Analysis S
 - [Contributing](#contributing)
 - [License](#license)
 
+---
+
 ## Overview
 
 This system provides teachers with insights into the engagement levels of students during online learning sessions by analyzing both **emotional** and **behavioral engagement**. It uses image processing and deep learning techniques to detect student emotions and presence during class, giving teachers valuable data to improve the learning experience.
+
+---
 
 ## Features
 
@@ -24,6 +36,8 @@ This system provides teachers with insights into the engagement levels of studen
 - **Behavioral Engagement Monitoring**: Detects student presence during online learning sessions via face detection.
 - **Real-time Data Processing**: The system processes images captured through a webcam and sends the engagement data to a server for teacher evaluation.
 - **Teacher Dashboard**: A web interface where teachers can view student engagement statistics and attendance data.
+
+---
 
 ## Technologies Used
 
@@ -36,7 +50,9 @@ This system provides teachers with insights into the engagement levels of studen
 - **Web Technologies**:
   - **Svelte**: JavaScript framework used for building the web dashboard interface.
   - **SQLAlchemy**: Database toolkit for handling database queries and interaction with MySQL.
-  
+
+---
+
 ## Installation
 
 ### Prerequisites
@@ -75,6 +91,8 @@ SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://username:password@localhost/db_name'
 flask db upgrade
 ```
 
+---
+
 ## Usage
 
 ### Running the desktop application
@@ -96,6 +114,8 @@ python desktop_app/main.py
 1. Open your browser and navigate to `http://localhost:5000/` to access the teacher dashboard.
 
 2. Log in as a teacher to view student engagement data.
+
+---
 
 ## System Architecture
 
@@ -122,6 +142,8 @@ The system is composed of two main components:
 +-------------+    +-------------+    +-------------+
 ```
 
+---
+
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute, please follow these steps:
@@ -131,6 +153,8 @@ Contributions are welcome! If you'd like to contribute, please follow these step
 3. Commit your changes (`git commit -m 'Add new feature'`).
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a Pull Request.
+
+---
 
 ## License
 
