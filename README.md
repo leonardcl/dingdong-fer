@@ -9,7 +9,7 @@
 
 This repository contains the source code for the **Student Engagement Analysis System**, developed as part of an undergraduate thesis. The system is designed to analyze student engagement in real-time during online learning sessions by detecting emotional and behavioral cues from students using their webcam.
 
-This project published on: https://jurnalelektro.petra.ac.id/index.php/elk/article/view/25888/20824
+This project was published in: [this article (in Indonesian)](https://jurnalelektro.petra.ac.id/index.php/elk/article/view/25888/20824)
 
 ---
 
